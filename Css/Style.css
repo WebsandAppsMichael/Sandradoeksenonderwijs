@@ -257,6 +257,10 @@ social-media a:last-child {
 
 /* Responsive Menu */
 @media (max-width: 768px) {
+    .nav-wrap h1, .nav-wrap p {
+        display: none;
+    }
+    
     .menu {
         display: none;
         grid-template-columns: 1fr;
