@@ -284,13 +284,17 @@ nav {
     font-weight: bold;
 }
 
+.highlight-blue {
+    color: #156082;
+    font-weight: bold;
+}
 
 .social-media a {
     color: #fff;
     margin-right: 10px;
 }
 
-social-media a:last-child {
+.social-media a:last-child {
     margin-right: 0;
 }
 
@@ -299,7 +303,7 @@ social-media a:last-child {
     .nav-wrap h1, .nav-wrap p {
         display: none;
     }
-    
+
     .menu {
         display: none;
         grid-template-columns: 1fr;
