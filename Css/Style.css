@@ -248,6 +248,11 @@ nav {
     margin: 1rem 0;
 }
 
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .branding-text {
     font-family: 'Arial', sans-serif;
     font-size: 1.25rem;
