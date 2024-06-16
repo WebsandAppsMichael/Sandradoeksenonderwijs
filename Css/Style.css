@@ -298,6 +298,34 @@ nav {
     margin-right: 0;
 }
 
+/* Secties */
+section {
+    background-color: var(--secondary-color);
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+
 /* Responsive Menu */
 @media (max-width: 768px) {
     .nav-wrap h1, .nav-wrap p {
@@ -357,6 +385,10 @@ nav {
     .contact-button {
         margin-top: 7rem; /* Add more margin to ensure it doesn't overlap with the menu */
     }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
 
 /* Responsive Footer */
@@ -375,32 +407,6 @@ nav {
     }
 }
 
-/* Secties */
-section {
-    background-color: var(--secondary-color);
-    margin: 2rem 0;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-}
-
-p {
-    line-height: 1.6;
-    color: var(--text-color);
-    margin-bottom: 1rem;
-}
 
 /* Under Construction */
 .background-handshake {
