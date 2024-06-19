@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="header"></div>
+    <section id="contact">
+      <div class="contact-container">
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="contact-left"
+        >
+          <h2>Neem contact op</h2>
+          <hr />
+          <input
+            type="hidden"
+            name="access_key"
+            value="f765fe4a-3723-4dac-9342-e36cce9b008c"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="Je naam"
+            class="contact-inputs"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Jouw e-mailadres"
+            class="contact-inputs"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Jouw bericht"
+            class="contact-inputs"
+            required
+          ></textarea>
+          <button type="submit">Verstuur</button>
+        </form>
+      </div>
+    </section>
+    <div class="footer"></div>
+    <script src="Files/script.js"></script>
+  </body>
+</html>
