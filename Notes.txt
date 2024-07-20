@@ -1,3 +1,2 @@
-Voeg subhoofdstukken toe aan menu.
-Verwijder Tarieven menu
-Voeg slogan en keywords toe
+Minder whitespace tussen logo en menu.
+Om de drie zinnen een break toevoegen
